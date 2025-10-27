@@ -1,0 +1,38 @@
+{
+  "reviews": [
+    {
+      "category": "cv",
+      "question": "Wie fanden Sie den aufbau des Lebenslauf",
+      "rating": 0,
+      "advice": "ihre Antwort"
+    },
+    
+    {
+      "category": "cv",
+      "question": "Würde ein Bild den Lebenslauf aufwerten?",
+      "rating": 0,
+      "advice": "ihre Antwort"
+    },
+    
+    {
+      "category": "cv",
+      "question": " ",
+      "rating": 0,
+      "advice": "ihre Antwort"
+    },
+
+    {
+      "category": "cv",
+      "question": " ",
+      "rating": 0,
+      "advice": "ihre Antwort"
+    },
+
+    {
+      "category": "cv",
+      "question": " ",
+      "rating": 0,
+      "advice": "ihre Antwort"
+    }
+  ]
+}

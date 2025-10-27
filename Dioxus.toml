@@ -1,0 +1,26 @@
+[application]
+
+[web.app]
+
+# HTML title tag content
+title = "review"
+
+# include `assets` in web platform
+[web.resource]
+
+# Additional CSS style files
+style = ["assets/styling/review.css"]
+
+# Additional JavaScript files
+script = []
+
+[web.resource.dev]
+
+# Javascript code file
+# serve: [dev-server] only
+script = []
+
+[database]
+# MongoDB connection configuration (Docker instance)
+mongodb_uri = "mongodb://appuser:apppassword@mongodb:27017/applications?authSource=applications"
+database_name = "applications"
