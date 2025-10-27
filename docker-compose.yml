@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - MONGODB_URI=mongodb://appuser:apppassword@mongodb:27017/applications?authSource=applications
+      - DATABASE_NAME=applications
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=showApplicationReviews
+
+volumes:
+  mongodb_data:
